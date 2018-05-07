@@ -1,0 +1,32 @@
+{
+  "name": "healthreport",
+  "version": "1.0.0",
+  "description": "Generate API for retrive patient health report data ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "npm start",
+    "nodemon": "./node_modules/nodemon/bin/nodemon.js --config nodemon.json --exec npm run dev "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumaliJayasinghe/HealthReport.git"
+  },
+  "author": "Sumali Jayasinghe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumaliJayasinghe/HealthReport/issues"
+  },
+  "homepage": "https://github.com/sumaliJayasinghe/HealthReport#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.6",
+    "sequelize-cli": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}

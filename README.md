@@ -5,10 +5,11 @@ HealthReport is server application which provide RESTful API which communucate c
 # Steps
 1. run "npm install"
 2. change credentials of ../app/config/config.json to connect your database
-3. run "cd app"
-4. run "../node_modules/.bin/sequelize db:migrate"
+build database
+3. run "cd app/database"
+4. run "../../node_modules/.bin/sequelize db:migrate"
 
-You may encounter with following error in terminal
+You may encounter with following error in terminal,
 
 "Sequelize CLI [Node: 6.14.1, CLI: 4.0.0, ORM: 4.37.6]
 

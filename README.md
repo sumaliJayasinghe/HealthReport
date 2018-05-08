@@ -1,6 +1,6 @@
 # HealthReport
 
-HealthReport is server application which provide RESTful API which communucate client application and backend database. This is build with Node JS, Express AND Sequelize. 
+HealthReport is server application which provide RESTful API which communucate client application and backend database. This is build with Node JS, Express AND MySQL using Sequelize ORM. 
 
 # Steps
 1. run "npm install"
